@@ -6,6 +6,9 @@ app=Flask(__name__)#MODEL
 def index():
     return render_template("index.html")#VIEW
 
+@app.route("/blog")#CONTROLLER
+def blog():
+    return render_template("blog.html")#VIEW
 
 if __name__ == '__main__':
     app.run()

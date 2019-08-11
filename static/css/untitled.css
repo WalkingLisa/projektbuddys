@@ -2,6 +2,22 @@
   color: #15b095!important;
 }
 
+.login {
+  max-width: 320px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 4px;
+  color: #505e6c;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
+.illustration {
+    text-align: center;
+    max-width: 150px;
+}
+
 .portfolio-box .portfolio-box-caption {
   position: absolute;
   bottom: 0;
@@ -99,3 +115,6 @@ a, a:hover {
   color: #15b095;
 }
 
+#logo
+{ text-align: center;
+max-width:150px;}

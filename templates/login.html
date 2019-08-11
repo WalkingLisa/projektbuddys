@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section>
+    <br><br>
+   <div><form method="post" class="login" action="/login">
+    <h2 class="sr-only">Login Form</h2>
+    <div ><img max-width="200px" src="/static/img/thumbnails/logo.JPG" /></div>
+       <div class="form-group"><input type="text" class="form-control" name="login-name" placeholder="Name" /></div>
+       <div class="form-group"><input type="email" class="form-control" name="login-email" placeholder="E-Mail" /></div>
+    <div class="form-group"><input type="password" class="form-control" name="login-password" placeholder="Passwort" /></div>
+    <div class="form-group"><button class="btn btn-primary btn-block" type="submit">Login</button></div><a class="forgot" href="/">Hast du dein Passwort vergessen?</a></form>
+    </div>
+</section>
+{% endblock content %}

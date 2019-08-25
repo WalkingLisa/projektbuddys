@@ -1,0 +1,149 @@
+hr {
+  max-width: 50px;
+  border-width: 3px;
+  border-color: #15b095;
+}
+
+
+i {
+  color: #15b095;
+}
+
+.text-primary {
+  color: #15b095!important;
+}
+
+.login {
+  max-width: 320px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 4px;
+  color: #505e6c;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
+#blogbox {
+    height: 500px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #868e96;
+}
+
+.illustration {
+    text-align: center;
+    max-width: 150px;
+}
+
+.portfolio-box .portfolio-box-caption {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  background: rgba(21,176,149, 0.7);
+  transition: all .2s;
+}
+
+
+
+a:hover {
+  color: #15b095;
+  text-decoration: underline;
+}
+
+.bg-dark {
+  background-color: #15b095!important;
+}
+
+
+a {
+  color: #15b095;
+}
+
+
+.btn-primary {
+  background-color: #15b095;
+  border-color: #15b095;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #15b095;
+  border-color: #15b095;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #15b095;
+  border-color: #15b095;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  color: #fff;
+  background-color: #066354!important;
+}
+
+.text-uppercase {
+  text-transform: lowercase!important;
+}
+
+#mainNav .navbar-brand {
+  font-weight: 700;
+  text-transform: lowercase;
+  color: #15B095;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+  font-size: .9rem;
+  font-weight: 700;
+  text-transform: lowercase;
+  color: #868e96;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+    color: #15B095 !important;
+    background-color: transparent;
+
+@media (min-width:992px) {
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
+    color: #15b095;
+  }
+}
+ .col-lg-3 {
+    -ms-flex: 0 0 33% !important;
+    flex: 0 0 33% !important;
+    max-width: 33% !important;
+}
+
+.col-md-6 {
+ -ms-flex: 0 0 33% !important;
+    flex: 0 0 33% !important;
+    max-width: 33% !important;
+}
+
+
+
+.img-fluid, .img-thumbnail8 {
+  max-width: 100%;
+  height: auto;
+}
+
+.sr-icons {
+color: #15b095;}
+
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
+  color: #15b095;
+}
+
+#logo
+{ margin-left: 20px;
+  width:150px;}

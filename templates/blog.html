@@ -14,7 +14,7 @@
                 <p class="text-faded mb-5">... <strong>und solche, die es werden wollen</strong><br /><br /></p><a class="btn btn-primary btn-xl js-scroll-trigger" role="button" href="/login" style="background-color: #15b095;">mach mit!</a></div>
         </div>
     </header>
-    <section id="services">
+    <section>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -43,21 +43,68 @@
                         <p class="text-muted mb-0">Das Leben besteht nicht nur aus Podcast und YouTube, es gibt noch so viele andere Möglichkeiten für kreative Projekte. Sei es ein Blog, eine App, ein Videospiel ... Auf Fragen aus diesen Bereichen liefern wir hier auch Antworten!</p>
                     </div>
                 </div>
-    </section>
-    <section>
+        </section>
+
          <div class="container">
-             <div class="row" id="blogbox">
-                 <div class="masthead text-center text-white d-flex" style="background-image: url('static/img/header.jpg');">
-                     <div class="col-lg-10 mx-auto">
-                    <h1 class="text-uppercase">Beitrag: Was brauche ich, um einen Podcast zu starten?</h1>
-                    <hr style="border-color: #15b095;" />
+             <div class="row">
+                <div class="col-md-8">
+                     <div class="post">
+                        <img class="img responsive" src="static/img/blog_podcast.jpg" width="100%">
+                        <p class="details">
+                            <br>
+                            <i class="fa fa-calendar-o"></i> 31.08.2019
+                            <i class="fa fa-user-o"></i>{{author1}}
+                        </p>
+                        <h2>Was brauche ich, um einen Podcast einzurichten?</h2>
+                        <p>
+                            Für einen Podcast benötigst du am Anfang nicht die beste und teuerste Technik, aber die Tonqualität sollte stimmen ...
+                        </p>
+                        <a class="btn btn-green-outlined">Mehr dazu</a>
                      </div>
-                 </div>
-
-                 <p>Autor: {{author1}}, veröffentlicht am 18.08.2019</p>
+                    <br>
+                    <hr>
+                    <br>
+                     <div class="post">
+                        <img class="img responsive" src="static/img/home1.jpg" width="100%">
+                        <p class="details">
+                            <br>
+                            <i class="fa fa-calendar-o"></i> 26.08.2019
+                            <i class="fa fa-user-o"></i>{{author1}}
+                        </p>
+                        <h2>Wo finde ich kostenlose Bilder für meinen Blog?</h2>
+                        <p>
+                            Kostenlose Bilder werden auf verschiedenen Seiten angeboten, dabei gilt es jedoch einiges zu beachten ...
+                        </p>
+                        <a class="btn btn-green-outlined">Mehr dazu</a>
+                     </div>
+                    <br>
+                    <hr>
+                    <br>
+                     <div class="post">
+                        <img class="img responsive" src="static/img/kreativ.jpg" width="100%">
+                        <p class="details">
+                            <br>
+                            <i class="fa fa-calendar-o"></i> 19.08.2019
+                            <i class="fa fa-user-o"></i>{{author1}}
+                        </p>
+                        <h2>Kreativ auf Knopfdruck - so brainstormst du richtig!</h2>
+                        <p>
+                            Auf Knopfdruck kreativ? Wie soll das gehen? Das haben wir uns auch gefragt und ein paar Tipps für dich zusammengestellt ...
+                        </p>
+                        <a class="btn btn-green-outlined">Mehr dazu</a>
+                     </div>
+                </div>
+                <div class="col-md-4 sidebar">
+                    <hr class="visible-xs">
+                    <br>
+                    <h4>Neueste Beiträge</h4>
+                          <p><i class="fa fa-calendar-o"></i> 31.08.2019<br><a href="">Was brauche ich, um einen Podcast einzurichten?</a></p>
+                          <p><i class="fa fa-calendar-o"></i> 26.08.2019<br><a href="">Wo finde ich kostenlose Bilder für meinen Blog?</a></p>
+                          <p><i class="fa fa-calendar-o"></i> 19.08.2019<br><a href="">Kreativ auf Knopfdruck - so brainstormst du richtig!</a></p>
+                </div>
              </div>
-
          </div>
-    </section>
+
+
 
 {% endblock content %}

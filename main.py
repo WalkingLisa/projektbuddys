@@ -22,7 +22,7 @@ def index():
 @app.route("/blog", methods=["GET"])#CONTROLLER
 def blog():
     session_token = request.cookies.get("session_token")
-    author1 = "Lisa Engels"
+    author1 = " Lisa Engels"
 
     if session_token:
         user = db.query(User).filter_by(session_token=session_token).first()

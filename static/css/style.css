@@ -140,6 +140,32 @@ a {
 color: #15b095;}
 
 
+.post {
+    border-bottom: 1px #eee solid;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.details {
+    border: 1px #eee solid;
+    border-left: none;
+    border-right: none;
+    color: #999;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.btn btn-green-outlined {
+    background: transparent;
+    border-color: #15B095;
+    color: #15B095;
+
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
   color: #15b095;
 }
